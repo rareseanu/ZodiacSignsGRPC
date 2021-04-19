@@ -1,42 +1,38 @@
-﻿{
-  "Pesti": {
-    "StartInterval": {
-      "day": "1",
-      "month": "3"
-    },
-    "EndInterval": {
-      "day": "20",
-      "month": "3"
+﻿[
+  {
+    "Name": "Pesti",
+    "Interval": {
+      "startDay": "1",
+      "startMonth": "3",
+      "endDay": "20",
+      "endMonth": "3"
     }
   },
-  "Berbec": {
+  {
+    "Name": "Berbec",
     "StartInterval": {
-      "day": "21",
-      "month": "3"
-    },
-    "EndInterval": {
-      "day": "20",
-      "month": "4"
+      "startDay": "21",
+      "startMonth": "3",
+      "endDay": "20",
+      "endMonth": "4"
     }
   },
-  "Taur": {
+  {
+    "Name": "Taur",
     "StartInterval": {
-      "day": "21",
-      "month": "4"
-    },
-    "EndInterval": {
-      "day": "20",
-      "month": "5"
+      "startDay": "21",
+      "startMonth": "4",
+      "endDay": "20",
+      "endMonth": "5"
     }
   },
-  "Gemeni": {
+  {
+    "Name": "Gemeni",
     "StartInterval": {
-      "day": "21",
-      "month": "5"
-    },
-    "EndInterval": {
-      "day": "31",
-      "month": "5"
+      "startDay": "21",
+      "startMonth": "5",
+      "endDay": "31",
+      "endMonth": "5+"
     }
   }
-}
+]

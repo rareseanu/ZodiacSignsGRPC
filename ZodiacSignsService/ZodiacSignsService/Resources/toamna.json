@@ -1,42 +1,38 @@
-﻿{
-  "Fecioara": {
-    "StartInterval": {
-      "day": "1",
-      "month": "9"
-    },
-    "EndInterval": {
-      "day": "22",
-      "month": "9"
+﻿[
+  {
+    "Name": "Fecioara",
+    "Interval": {
+      "startDay": "1",
+      "startMonth": "9",
+      "endDay": "22",
+      "endMonth": "9"
     }
   },
-  "Balanta": {
-    "StartInterval": {
-      "day": "23",
-      "month": "9"
-    },
-    "EndInterval": {
-      "day": "22",
-      "month": "10"
+  {
+    "Name": "Balanta",
+    "Interval": {
+      "startDay": "23",
+      "startMonth": "9",
+      "endDay": "22",
+      "endMonth": "10"
     }
   },
-  "Scorpion": {
-    "StartInterval": {
-      "day": "23",
-      "month": "10"
-    },
-    "EndInterval": {
-      "day": "21",
-      "month": "11"
+  {
+    "Name": "Scorpion",
+    "Interval": {
+      "startDay": "23",
+      "startMonth": "10",
+      "endDay": "21",
+      "endMonth": "11"
     }
   },
-  "Sagetator": {
-    "StartInterval": {
-      "day": "22",
-      "month": "11"
-    },
-    "EndInterval": {
-      "day": "30",
-      "month": "11"
+  {
+    "Name": "Sagetator",
+    "Interval": {
+      "startDay": "22",
+      "startMonth": "11",
+      "endDay": "30",
+      "endMonth": "11"
     }
   }
-}
+]

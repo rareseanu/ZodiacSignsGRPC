@@ -1,42 +1,38 @@
-﻿{
-  "Gemeni": {
-    "StartInterval": {
-      "day": "1",
-      "month": "6"
-    },
-    "EndInterval": {
-      "day": "21",
-      "month": "6"
+﻿[
+  {
+    "Name": "Gemeni",
+    "Interval": {
+      "startDay": "1",
+      "startMonth": "6",
+      "endDay": "21",
+      "endMonth": "6"
     }
   },
-  "Rac": {
-    "StartInterval": {
-      "day": "22",
-      "month": "6"
-    },
-    "EndInterval": {
-      "day": "22",
-      "month": "7"
+  {
+    "Name": "Rac",
+    "Interval": {
+      "startDay": "22",
+      "startMonth": "6",
+      "endDay": "22",
+      "endMonth": "7"
     }
   },
-  "Leu": {
-    "StartInterval": {
-      "day": "23",
-      "month": "7"
-    },
-    "EndInterval": {
-      "day": "22",
-      "month": "8"
+  {
+    "Name": "Leu",
+    "Interval": {
+      "startDay": "23",
+      "startMonth": "7",
+      "endDay": "22",
+      "endMonth": "8"
     }
   },
-  "Fecioara": {
-    "StartInterval": {
-      "day": "23",
-      "month": "8"
-    },
-    "EndInterval": {
-      "day": "31",
-      "month": "8"
+  {
+    "Name": "Fecioara",
+    "Interval": {
+      "startDay": "23",
+      "startMonth": "8",
+      "endDay": "31",
+      "endMonth": "8"
     }
   }
-}
+]

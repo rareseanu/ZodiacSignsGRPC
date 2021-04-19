@@ -1,42 +1,38 @@
-﻿{
-  "Sagetator": {
-    "StartInterval": {
-      "day": "1",
-      "month": "12"
-    },
-    "EndInterval": {
-      "day": "20",
-      "month": "12"
+﻿[
+  {
+    "Name": "Sagetator",
+    "Interval": {
+      "startDay": "1",
+      "startMonth": "12",
+      "endDay": "20",
+      "endMonth": "12"
     }
   },
-  "Capricorn": {
-    "StartInterval": {
-      "day": "21",
-      "month": "12"
-    },
-    "EndInterval": {
-      "day": "19",
-      "month": "1"
+  {
+    "Name": "Capricorn",
+    "Interval": {
+      "startDay": "21",
+      "startMonth": "12",
+      "endDay": "19",
+      "endMonth": "1"
     }
   },
-  "Varsator": {
-    "StartInterval": {
-      "day": "20",
-      "month": "1"
-    },
-    "EndInterval": {
-      "day": "18",
-      "month": "2"
+  {
+    "Name": "Varsator",
+    "Interval": {
+      "startDay": "20",
+      "startMonth": "1",
+      "endDay": "18",
+      "endMonth": "2"
     }
   },
-  "Pesti": {
-    "StartInterval": {
-      "day": "19",
-      "month": "2"
-    },
-    "EndInterval": {
-      "day": "29",
+  {
+    "Name": "Pesti",
+    "Interval": {
+      "startDay": "19",
+      "startMonth": "2",
+      "endDay": "29",
       "month": "2"
     }
   }
-}
+]
