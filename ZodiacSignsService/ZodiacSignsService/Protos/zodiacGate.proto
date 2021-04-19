@@ -5,7 +5,7 @@ option csharp_namespace = "ZodiacSignsService";
 package zodiac;
 
 service ZodiacSign {
-  rpc GetZodiacSign (ZodiacSignRequest) returns (ZodiacSignReply);
+  rpc GetZodiacSign (ZodiacSignRequest) returns (ZodiacSignReply) {}
 }
 
 message ZodiacSignRequest {

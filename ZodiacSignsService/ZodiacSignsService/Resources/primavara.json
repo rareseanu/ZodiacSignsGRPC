@@ -10,7 +10,7 @@
   },
   {
     "Name": "Berbec",
-    "StartInterval": {
+    "Interval": {
       "startDay": "21",
       "startMonth": "3",
       "endDay": "20",
@@ -19,7 +19,7 @@
   },
   {
     "Name": "Taur",
-    "StartInterval": {
+    "Interval": {
       "startDay": "21",
       "startMonth": "4",
       "endDay": "20",
@@ -28,7 +28,7 @@
   },
   {
     "Name": "Gemeni",
-    "StartInterval": {
+    "Interval": {
       "startDay": "21",
       "startMonth": "5",
       "endDay": "31",
