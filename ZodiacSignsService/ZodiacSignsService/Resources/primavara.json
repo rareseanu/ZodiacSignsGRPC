@@ -1,0 +1,42 @@
+﻿{
+  "Pesti": {
+    "StartInterval": {
+      "day": "1",
+      "month": "3"
+    },
+    "EndInterval": {
+      "day": "20",
+      "month": "3"
+    }
+  },
+  "Berbec": {
+    "StartInterval": {
+      "day": "21",
+      "month": "3"
+    },
+    "EndInterval": {
+      "day": "20",
+      "month": "4"
+    }
+  },
+  "Taur": {
+    "StartInterval": {
+      "day": "21",
+      "month": "4"
+    },
+    "EndInterval": {
+      "day": "20",
+      "month": "5"
+    }
+  },
+  "Gemeni": {
+    "StartInterval": {
+      "day": "21",
+      "month": "5"
+    },
+    "EndInterval": {
+      "day": "31",
+      "month": "5"
+    }
+  }
+}

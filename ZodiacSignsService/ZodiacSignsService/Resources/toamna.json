@@ -1,0 +1,42 @@
+﻿{
+  "Fecioara": {
+    "StartInterval": {
+      "day": "1",
+      "month": "9"
+    },
+    "EndInterval": {
+      "day": "22",
+      "month": "9"
+    }
+  },
+  "Balanta": {
+    "StartInterval": {
+      "day": "23",
+      "month": "9"
+    },
+    "EndInterval": {
+      "day": "22",
+      "month": "10"
+    }
+  },
+  "Scorpion": {
+    "StartInterval": {
+      "day": "23",
+      "month": "10"
+    },
+    "EndInterval": {
+      "day": "21",
+      "month": "11"
+    }
+  },
+  "Sagetator": {
+    "StartInterval": {
+      "day": "22",
+      "month": "11"
+    },
+    "EndInterval": {
+      "day": "30",
+      "month": "11"
+    }
+  }
+}

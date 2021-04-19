@@ -1,0 +1,42 @@
+﻿{
+  "Sagetator": {
+    "StartInterval": {
+      "day": "1",
+      "month": "12"
+    },
+    "EndInterval": {
+      "day": "20",
+      "month": "12"
+    }
+  },
+  "Capricorn": {
+    "StartInterval": {
+      "day": "21",
+      "month": "12"
+    },
+    "EndInterval": {
+      "day": "19",
+      "month": "1"
+    }
+  },
+  "Varsator": {
+    "StartInterval": {
+      "day": "20",
+      "month": "1"
+    },
+    "EndInterval": {
+      "day": "18",
+      "month": "2"
+    }
+  },
+  "Pesti": {
+    "StartInterval": {
+      "day": "19",
+      "month": "2"
+    },
+    "EndInterval": {
+      "day": "29",
+      "month": "2"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+﻿{
+  "Gemeni": {
+    "StartInterval": {
+      "day": "1",
+      "month": "6"
+    },
+    "EndInterval": {
+      "day": "21",
+      "month": "6"
+    }
+  },
+  "Rac": {
+    "StartInterval": {
+      "day": "22",
+      "month": "6"
+    },
+    "EndInterval": {
+      "day": "22",
+      "month": "7"
+    }
+  },
+  "Leu": {
+    "StartInterval": {
+      "day": "23",
+      "month": "7"
+    },
+    "EndInterval": {
+      "day": "22",
+      "month": "8"
+    }
+  },
+  "Fecioara": {
+    "StartInterval": {
+      "day": "23",
+      "month": "8"
+    },
+    "EndInterval": {
+      "day": "31",
+      "month": "8"
+    }
+  }
+}
