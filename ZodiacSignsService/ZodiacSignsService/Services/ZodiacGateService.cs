@@ -18,6 +18,7 @@ namespace ZodiacSignsService
 
         private ZodiacSpring springZodiac = new ZodiacSpring();
         private ZodiacAutumn autumnZodiac = new ZodiacAutumn();
+        private ZodiacWinter winterZodiac = new ZodiacWinter();
 
         private string ProcessBirthday(string birthday, ServerCallContext context)
         {
@@ -43,7 +44,10 @@ namespace ZodiacSignsService
                 }
                 else // winter
                 {
-                    return null;
+                    var reply = winterZodiac.GetWinterZodiacSign(new WinterZodiacSignRequest { Birthday = birthday }, context);
+                    var res = reply.Result.ZodiacSign;
+                    Console.WriteLine(res);
+                    return res;
                 }
             }
             return "[ERROR] Invalid date.";
