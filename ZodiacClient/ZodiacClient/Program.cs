@@ -3,6 +3,7 @@ using Grpc.Net.Client;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using ZodiacSignsService;
 
 namespace ZodiacClient
 {

@@ -19,6 +19,7 @@ namespace ZodiacSignsService
         private ZodiacSpring springZodiac = new ZodiacSpring();
         private ZodiacAutumn autumnZodiac = new ZodiacAutumn();
         private ZodiacWinter winterZodiac = new ZodiacWinter();
+        private ZodiacSummer summerZodiac = new ZodiacSummer();
 
         private string ProcessBirthday(string birthday, ServerCallContext context)
         {
@@ -33,7 +34,10 @@ namespace ZodiacSignsService
                     return res;
                 } else if(date.Month >= 6 && date.Month <= 8) // summer
                 {
-                    return null;
+                    var reply = summerZodiac.GetSummerZodiacSign(new SummerZodiacSignRequest { Birthday = birthday }, context);
+                    var res = reply.Result.ZodiacSign;
+                    Console.WriteLine(res);
+                    return res;
                 }
                 else if(date.Month >= 9 && date.Month <= 11) // autumn
                 {

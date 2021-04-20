@@ -1,6 +1,6 @@
 ﻿syntax = "proto3";
 
-option csharp_namespace = "ZodiacClient";
+option csharp_namespace = "ZodiacSignsService";
 
 package zodiac;
 

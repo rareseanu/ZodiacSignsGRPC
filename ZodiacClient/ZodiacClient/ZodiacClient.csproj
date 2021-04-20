@@ -16,6 +16,9 @@
 	<ItemGroup>
 		<Protobuf Include="Protos\zodiacGate.proto" GrpcServices="Client" />
 		<Protobuf Include="Protos\spring.proto" GrpcServices="Client" />
+		<Protobuf Include="Protos\autumn.proto" GrpcServices="Client" />
+		<Protobuf Include="Protos\winter.proto" GrpcServices="Client" />
+		<Protobuf Include="Protos\summer.proto" GrpcServices="Client" />
 	</ItemGroup>
 
 </Project>

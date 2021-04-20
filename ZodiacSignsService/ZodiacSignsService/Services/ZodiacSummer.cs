@@ -11,21 +11,21 @@ using System.Threading.Tasks;
 
 namespace ZodiacSignsService
 {
-    public class ZodiacWinter : WinterZodiacSign.WinterZodiacSignBase
+    public class ZodiacSummer : SummerZodiacSign.SummerZodiacSignBase
     {
         private List<Sign> signs { get; set; }
-        public ZodiacWinter()
+        public ZodiacSummer()
         {
-            using (StreamReader r = new StreamReader(@"Resources\iarna.json"))
+            using (StreamReader r = new StreamReader(@"Resources\vara.json"))
             {
                 string json = r.ReadToEnd();
                 signs = JsonConvert.DeserializeObject<List<Sign>>(json);
             }
         }
 
-        public override Task<WinterZodiacSignReply> GetWinterZodiacSign(WinterZodiacSignRequest request, ServerCallContext context)
+        public override Task<SummerZodiacSignReply> GetSummerZodiacSign(SummerZodiacSignRequest request, ServerCallContext context)
         {
-            return Task.FromResult(new WinterZodiacSignReply() { ZodiacSign = Helper.GetZodiac(request.Birthday, signs) });
+            return Task.FromResult(new SummerZodiacSignReply() { ZodiacSign = Helper.GetZodiac(request.Birthday, signs) });
         }
     }
 }
