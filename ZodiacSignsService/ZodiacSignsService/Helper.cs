@@ -19,11 +19,27 @@ namespace ZodiacSignsService
                 DateTime end = s.Interval.GetEndTime(date.Year.ToString());
                 if(start.Month == 12 && end.Month == 1)
                 {
-                    start = (DateTime.ParseExact($"{start.Month}/{start.Day}/{start.Year - 1}", "M/d/yyyy", provider));
+                    try
+                    {
+                        if (date < start)
+                        {
+                            start = (DateTime.ParseExact($"{start.Month}/{start.Day}/{start.Year - 1}", "M/d/yyyy", provider));
+                        } else
+                        {
+                            end = (DateTime.ParseExact($"{end.Month}/{end.Day}/{end.Year + 1}", "M/d/yyyy", provider));
+                        }
+                    } catch
+                    {
+                        return "Invalid format.";
+                    }
                 }
                 // 01/01/2020
                 // start = 12/21/2019
                 // end   = 1/19/2020
+
+                //12/26/2000
+                // start = 12/21/2000
+                // end = 1/19/2000
                 if (date >= start && date <= end)
                 {
                     return s.Name;
