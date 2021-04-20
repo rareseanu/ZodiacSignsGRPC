@@ -1,6 +1,7 @@
 ﻿using Google.Protobuf.WellKnownTypes;
 using Grpc.Net.Client;
 using System;
+using System.Globalization;
 using System.Net.Http;
 using System.Threading.Tasks;
 using ZodiacSignsService;
@@ -18,9 +19,17 @@ namespace ZodiacClient
             {
                 Console.WriteLine("Data de nastere: ");
                 birthday = Console.ReadLine();
-                var reply = client.GetZodiacSign(
-                                  new ZodiacSignRequest { Birthday = birthday });
-                Console.WriteLine($"REPLY: ZODIE: {reply.ZodiacSign}");
+
+                try
+                {
+                    DateTime.ParseExact(birthday, "M/d/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None);
+                    var reply = client.GetZodiacSign(
+                        new ZodiacSignRequest { Birthday = birthday });
+                    Console.WriteLine($"REPLY: ZODIE: {reply.ZodiacSign}");
+                } catch
+                {
+                    Console.WriteLine("[CLIENT VALIDATION] Invalid date format.");
+                }
             }
             
         }
