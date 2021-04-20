@@ -9,12 +9,6 @@ namespace ZodiacSignsService
     public class Sign
     {
         public string Name { get; set; }
-        [JsonProperty]
-        public TimeInterval Interval { get; }
-
-    }
-    public class RootObject
-    {
-        public List<Sign> signs { get; set; }
+        public TimeInterval Interval { get; set;  }
     }
 }
