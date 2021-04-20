@@ -18,6 +18,7 @@ namespace ZodiacSignsService
 
         private ZodiacSpring springZodiac = new ZodiacSpring();
 
+
         private string ProcessBirthday(string birthday, ServerCallContext context)
         {
             DateTime date;
