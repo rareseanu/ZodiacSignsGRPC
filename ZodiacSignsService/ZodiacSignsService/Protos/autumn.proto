@@ -8,7 +8,7 @@ service AutumnZodiacSign {
   rpc GetAutumnZodiacSign (AutumnZodiacSignRequest) returns (AutumnZodiacSignReply) {};
 }
 
-message AutumngZodiacSignRequest {
+message AutumnZodiacSignRequest {
   string birthday = 1;
 }
 

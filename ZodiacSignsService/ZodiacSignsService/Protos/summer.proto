@@ -8,7 +8,7 @@ service SummerZodiacSign {
   rpc GetSummerZodiacSign (SummerZodiacSignRequest) returns (SummerZodiacSignReply) {};
 }
 
-message SummergZodiacSignRequest {
+message SummerZodiacSignRequest {
   string birthday = 1;
 }
 
